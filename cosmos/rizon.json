@@ -1,0 +1,48 @@
+{
+  "rpc": "https://rpcapi.rizon.world",
+  "rest": "https://rpcapi.rizon.world",
+  "chainId": "titan-1",
+  "chainName": "RIZON",
+  "chainSymbolImageUrl": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/juno/chain.png",
+  "stakeCurrency": {
+    "coinDenom": "ATOLO",
+    "coinMinimalDenom": "uatolo",
+    "coinDecimals": 6,
+    "coinGeckoId": "titan-1"
+  },
+  "walletUrl": "https://wallet.cosmostation.io/rizon/delegate",
+  "walletUrlForStaking": "https://wallet.cosmostation.io/rizon/delegate",
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "rizon",
+    "bech32PrefixAccPub": "rizonpub",
+    "bech32PrefixValAddr": "rizonvaloper",
+    "bech32PrefixValPub": "rizonvaloperpub",
+    "bech32PrefixConsAddr": "rizonvalcons",
+    "bech32PrefixConsPub": "rizonvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "ATOLO",
+      "coinMinimalDenom": "uatolo",
+      "coinDecimals": 6,
+      "coinGeckoId": "titan-1"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "ATOLO",
+      "coinMinimalDenom": "uatolo",
+      "coinDecimals": 6,
+      "coinGeckoId": "titan-1",
+      "gasPriceStep": {
+        "low": 0.001,
+        "average": 0.0025,
+        "high": 0.004
+      }
+    }
+  ],
+  "features": []
+}
