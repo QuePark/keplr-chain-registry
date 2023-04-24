@@ -10,8 +10,8 @@
     "coinDecimals": 6,
     "coinGeckoId": "titan-1"
   },
-  "walletUrl": "https://wallet.cosmostation.io/rizon/delegate",
-  "walletUrlForStaking": "https://wallet.cosmostation.io/rizon/delegate",
+  "walletUrl": "https://omniflix.rizon.world/stake",
+  "walletUrlForStaking": "https://omniflix.rizon.world/stake",
   "bip44": {
     "coinType": 118
   },
